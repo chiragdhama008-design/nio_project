@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { processReport } from '../services/mockApi';
+import { processReport } from '../services/api';
 
 export default function CitizenForm({ onReportSubmitted }) {
   const [description, setDescription] = useState('');
