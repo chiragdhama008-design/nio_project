@@ -12,6 +12,7 @@ class Settings(BaseSettings):
     # AI provider
     ai_api_key: Optional[str] = None
     ai_provider: str = "fallback"
+    ai_model: str = "openai/gpt-oss-120b"
 
     # Server
     host: str = "0.0.0.0"
